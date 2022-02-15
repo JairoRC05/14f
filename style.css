@@ -4,8 +4,40 @@
 	background-position: center;
 
 }
+.psy-background {
+
+	background-size:  cover;
+	background-position: center;
+	background-color: #FFB61E;
+
+}
+
+.psy{
+	-webkit-text-stroke: 3px #4A3D38;
+	color: #FFB61E;
+	font-size: 70px;
+}
+
+.btn-psy {
+	background-color: #4A3D38;
+
+	-webkit-text-stroke: 2px #4A3D38;
+	color: #FFB61E;
+	font-size: 30px;
+	border: 4px #396A19  solid;
+}
+
+
+
+
 .sylveon-background {
 	background-image: url("images/R.jpg");
+	background-size:  cover;
+	background-position: center;
+
+}
+.woobafet-background {
+	background-image: url("https://allegra.flowersetcfresno.com/pic/4888418_full-fotos-para-tu-fondo-de-pantalla-iluminosos-corazon-luminoso-fondos-de-pantalla-amor-corazones.jpg");
 	background-size:  cover;
 	background-position: center;
 
@@ -109,7 +141,7 @@
 .jigglypuff {
 	-webkit-text-stroke: 3px #fbdde5;
 	color: pink;
-	font-size: 100px;
+	font-size: 80px;
 }
 .mew {
 	-webkit-text-stroke: 4px black;
@@ -120,7 +152,7 @@
 .nidoran {
 	-webkit-text-stroke: 3px #fe75a1;
 	color: pink;
-	font-size: 100px;
+	font-size: 70px;
 }
 
 .gengar {
@@ -264,4 +296,11 @@
 	color: #396A19;
 	font-size: 30px;
 	border: 4px #396A19  solid;
+}
+
+
+.woobafet {
+	-webkit-text-stroke: 3px #8c75de;
+	color: #b3b0e7;
+	font-size: 80px;
 }
