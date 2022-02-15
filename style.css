@@ -57,14 +57,7 @@
 }
 
 .btn-red {
-	background-image: linear-gradient(
-		to bottom,
-		#e70033,
-		#ea0041,
-		#eb004e,
-		#ec055b,
-		#eb1267
-	);
+	background: red;
 	-webkit-text-stroke: 2px pink;
 	color: white;
 	font-size: 30px;
@@ -81,6 +74,14 @@
 	color: red;
 	font-size: 50px;
 }
+
+
+.pokebola {
+	-webkit-text-stroke: 3px pink;
+	color: red;
+	font-size: 40px;
+}
+
 .jigglypuff {
 	-webkit-text-stroke: 3px #fbdde5;
 	color: pink;
