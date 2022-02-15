@@ -1,0 +1,192 @@
+.background {
+	background-image: url("r.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.machamp-background {
+	background-image: url("https://th.bing.com/th/id/R.3c2fa68e09efc7ce1e5f2cc2252e3ca9?rik=mcfciTw5%2bFWlyg&pid=ImgRaw&r=0");
+	background-size: cover;
+	background-position: center;
+}
+.mew-background {
+	background-image: url("https://th.bing.com/th/id/R.cb389a1a03c6432958b781ca44e988b9?rik=Gb57JL0oCqusiQ&riu=http%3a%2f%2fimg1.wikia.nocookie.net%2f__cb20130821181755%2fla-wiki-pokeland%2fes%2fimages%2fb%2fbf%2fFondo_Rosas_2.jpg&ehk=5inZE%2bMbRSJ%2bhYaJN%2fXyzfbxUQe8pxyAn8ZlYqEqVCQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+	background-size: cover;
+	background-position: center;
+}
+
+.nidoran-background {
+	background-image: url("https://th.bing.com/th/id/R.2120eac35f6c6f85d53c1d6d322565af?rik=hlmyiV9ILPI%2b1A&riu=http%3a%2f%2fwallpaperswide.com%2fdownload%2flove_is_in_the_air_2-wallpaper-1280x1024.jpg&ehk=ByjswLPEHrYEeQjVRMSrTlnGHoAIUApD3nx%2fyO5FNE0%3d&risl=&pid=ImgRaw&r=0");
+	background-size: cover;
+	background-position: center;
+}
+.jigglypuff-background {
+	background-image: url("https://www.solofondos.com/wp-content/uploads/2016/10/corazones-grandes-rosas-pink-wallpaper-36-853338_800.jpeg");
+	background-size: cover;
+	background-position: center;
+}
+
+.gengar-background {
+	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-pure-original-black-valentine-love-light-spot-background-image_273514.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.litwick-background {
+	background-image: url("https://cdn.shopify.com/s/files/1/2930/2308/products/silver-hearts-bokeh-with-pink-and-white-background-photography-backdrop-j-0131_grande.jpg?v=1535708376");
+	background-size: cover;
+	background-position: center;
+}
+
+.pikachu-background {
+	background-image: url("https://th.bing.com/th/id/R.36b319d4f3cdae829640910c93487259?rik=YXdcszuN5g07XA&riu=http%3a%2f%2fwww.poipoi.com%2fyakko%2fcgi-bin%2fsb%2fimg%2fwork%2fmaterial%2f2013%2f20130406_16.png&ehk=%2bqWdQEDZ1Cd0kRmaf05pc%2faQkgEH0hMKUlv9zUIa1t8%3d&risl=&pid=ImgRaw&r=0");
+	background-size: cover;
+	background-position: center;
+}
+
+@font-face {
+	font-family: "Pokemon";
+	src: url("font/Pokemon.ttf");
+}
+
+* {
+	font-family: "Pokemon";
+	-webkit-text-stroke: 1px red;
+	color: transparent;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.btn-red {
+	background-image: linear-gradient(
+		to bottom,
+		#e70033,
+		#ea0041,
+		#eb004e,
+		#ec055b,
+		#eb1267
+	);
+	-webkit-text-stroke: 2px pink;
+	color: white;
+	font-size: 30px;
+	border: 4px pink solid;
+}
+
+.btn-red:hover {
+	color: white;
+	background-color: red;
+}
+
+.sylveon {
+	-webkit-text-stroke: 3px pink;
+	color: red;
+	font-size: 50px;
+}
+.jigglypuff {
+	-webkit-text-stroke: 3px #fbdde5;
+	color: pink;
+	font-size: 100px;
+}
+.mew {
+	-webkit-text-stroke: 4px black;
+	color: pink;
+	font-size: 100px;
+}
+
+.nidoran {
+	-webkit-text-stroke: 3px #fe75a1;
+	color: pink;
+	font-size: 100px;
+}
+
+.gengar {
+	-webkit-text-stroke: 3px #f36e5f;
+	color: #423759;
+	font-size: 50px;
+}
+.pikachu {
+	-webkit-text-stroke: 3px red;
+	color: #fad61e;
+	font-size: 50px;
+}
+.litwick {
+	-webkit-text-stroke: 3px #8c75de;
+	color: #b3b0e7;
+	font-size: 50px;
+}
+
+.btn-gengar {
+	background-color: #423759;
+
+	-webkit-text-stroke: 2px #f36e5f;
+	color: #423759;
+	font-size: 30px;
+	border: 4px #f36e5f solid;
+}
+
+.btn-genggar:hover {
+	color: white;
+	background-color: f36e5f;
+}
+
+.btn-litwick {
+	background-color: #b3b0e7;
+
+	-webkit-text-stroke: 2px #b3b0e7;
+	color: #8c75de;
+	font-size: 30px;
+	border: 4px #8c75de solid;
+}
+
+.btn-litwick:hover {
+	color: white;
+	background-color: f36e5f;
+}
+
+.btn-pikachu {
+	background-color: #fad61e;
+
+	-webkit-text-stroke: 2px #fad61e;
+	color: red;
+	font-size: 30px;
+	border: 4px red solid;
+}
+
+.btn-pikachu:hover {
+	color: rgb(230, 3, 3);
+	background-color: f36e5f;
+}
+
+.btn-jiggly {
+	background-color: #f5cad6;
+
+	-webkit-text-stroke: 2px #fbdde5;
+	color: pink;
+	font-size: 30px;
+	border: 4px pink solid;
+}
+.btn-pikachu:hover {
+	color: rgb(230, 3, 3);
+	background-color: f36e5f;
+}
+
+.btn-nidoran {
+	background-color: #f5cad6;
+
+	-webkit-text-stroke: 2px #fbdde5;
+	color: rgb(231, 169, 180);
+	font-size: 30px;
+	border: 4px pink solid;
+}
+.btn-nidoran:hover {
+	color: rgb(230, 3, 3);
+	background-color: f36e5f;
+}
+
+.btn-mew {
+	background-color: #f5cad6;
+
+	-webkit-text-stroke: 2px black;
+	color: pink;
+	font-size: 30px;
+	border: 4px black solid;
+}
