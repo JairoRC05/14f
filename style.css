@@ -1,7 +1,28 @@
 .background {
+	background-image: url("https://th.bing.com/th/id/OIP.WzRtwbWkspHB6oHUfZI3sQHaHa?pid=ImgDet&rs=1");
+	background-size:  cover;
+	background-position: center;
+
+}
+.sylveon-background {
 	background-image: url("images/R.jpg");
+	background-size:  cover;
+	background-position: center;
+
+}
+.chicorita-background {
+	background-image: url("https://image.freepik.com/vector-gratis/vector-fondo-corazones-color-verde_53876-85119.jpg");
+	background-size:  cover;
+	background-position: center;
+
+}
+
+.rowlet-background {
+	background-image: url("https://image.freepik.com/foto-gratis/corazones-rojos-sobre-fondo-verde-dia-san-valentin_103409-14.jpg");
 	background-size: cover;
 	background-position: center;
+	background-repeat: repeat;
+
 }
 
 .machamp-background {
@@ -210,4 +231,37 @@
 	color: #94B3B8;
 	font-size: 30px;
 	border: 4px black solid;
+}
+
+.rowlet {
+	-webkit-text-stroke: 3px #268074;
+	color: #24AC89;
+	font-size: 70px;
+}
+
+
+.btn-rowlet {
+	background-color: #268074;
+
+	-webkit-text-stroke: 2px #1d9174;
+	color: #24AC89;
+	font-size: 30px;
+	border: 4px #24AC89  solid;
+}
+
+
+.chicorita {
+	-webkit-text-stroke: 3px #396A19;
+	color: #74BD49;
+	font-size: 70px;
+}
+
+
+.btn-chicorita {
+	background-color: #74BD49;
+
+	-webkit-text-stroke: 2px #1d9174;
+	color: #396A19;
+	font-size: 30px;
+	border: 4px #396A19  solid;
 }
